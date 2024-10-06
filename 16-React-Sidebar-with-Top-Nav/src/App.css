@@ -1,0 +1,79 @@
+.header{
+
+  background-color: bisque;
+  padding:10px;
+}
+
+
+
+.styling{
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.anchor{
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+
+
+.arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left:5px;
+  animation-name: example1;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+
+.arrow1 {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left:5px;
+  animation-name: example;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+ 
+}
+
+@keyframes example {
+  from {transform: rotate(45deg)}
+  to {transform: rotate(-135deg)}
+}
+
+@keyframes example1 {
+  from {transform: rotate(-135deg)}
+  to {transform: rotate(45deg)}
+}
+
+.sidebar{
+  float:left;
+  background: lightgray;
+  width: 20%;
+  padding: 2%;
+  height: calc(100vh - 0px);
+  overflow:hidden;
+  box-sizing: border-box;
+ 
+}
+
+.comp{
+  float:right;
+  background: lightgreen;
+  width:80%;
+  padding: 2%;
+  height: calc(100vh - 0px);
+  overflow:hidden;
+  box-sizing: border-box;
+}
+
+

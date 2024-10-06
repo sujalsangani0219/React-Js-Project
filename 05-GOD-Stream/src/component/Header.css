@@ -1,0 +1,27 @@
+.header {
+    background-color: #080808;
+    color: rgb(27, 27, 27);
+  height: 157px;
+ 
+
+  
+  }
+ 
+  
+  
+  .header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .L{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ 
+  
+ 
+  
